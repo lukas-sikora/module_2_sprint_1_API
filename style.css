@@ -1,0 +1,80 @@
+body {
+  max-width: 1920px;
+  text-align: center;
+  margin: 20px auto;
+  background-color:skyblue;
+}
+h2 {
+  font-size: 20px;
+}
+#filter-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#search {
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  border: solid black;
+  border-radius: 5px;
+}
+button {
+  height: 50px;
+  width: 80px;
+  background-color: beige;
+  border-radius: 5px;
+  font-size: 35px;
+  text-align: center;
+}
+#next-page {
+  background-image: url(images/right-arrow.png);
+}
+
+#tile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  /* font-size: 16px; */
+  font-weight: bold;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+  width: 180px;
+  border-radius: 10px;
+  padding: 20px 10px;
+  background-color: beige;
+  box-shadow: 10px 5px 10px #701717;
+}
+.tile-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+p {
+  margin: 0;
+}
+.tile img {
+  width: 160px;
+  height: 120px;
+  border-radius: 10px;
+}
+#pagination {
+  margin: 40px auto;
+}
+#message {
+  font-size: 24px;
+  color: blue;
+}
