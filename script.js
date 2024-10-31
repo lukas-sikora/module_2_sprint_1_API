@@ -1,7 +1,6 @@
 let currentPage = 1;
 let searchValue = "";
 let characterStatus = "alive";
-let characters = [];
 let maxPages;
 
 const tileBox = document.getElementById("tile-container");
